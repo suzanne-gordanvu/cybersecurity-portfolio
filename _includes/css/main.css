@@ -65,11 +65,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #{{ site.color.secondary-dark }};
+    border-color: #F7F3F7;
 }
 
 hr.star-light:after {
-    color: #{{ site.color.secondary-dark }};
+    color: #F7F3F7;
     background-color: #{{ site.color.primary }};
 }
 
@@ -108,13 +108,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    color: #{{ site.color.secondary-dark }};
+    color: #F7F3F7;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
-    color: #{{ site.color.secondary-dark }};
+    color: #F7F3F7;
 }
 
 @media(min-width:768px) {
@@ -191,6 +191,18 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+section.success p,
+section.success p.small,
+section.success h2,
+section.success h3,
+section.success h4,
+section.success h5,
+section.success h6,
+section.success li,
+section.success strong {
+    color: #F7F3F7;
 }
 
 @media(max-width:767px) {
@@ -515,14 +527,15 @@ footer .footer-below {
 }
 
 .resume-button {
-    color: #{{ site.color.secondary-dark }};
-    border-color: #{{ site.color.secondary-dark }};
+    color: #F7F3F7;
+    border-color: #F7F3F7;
+    background-color: transparent;
 }
 
 .resume-button:hover {
-    background-color: #{{ site.color.secondary-dark }};
-    color: #fff;
-    border-color: #{{ site.color.secondary-dark }};
+    background-color: #F7F3F7;
+    color: #2B203B;
+    border-color: #F7F3F7;
 }
 
 .modal-view-button {
